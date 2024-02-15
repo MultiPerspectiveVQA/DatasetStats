@@ -170,3 +170,7 @@ metadata.jsonl
 
 # Outputs
 split_stats.txt
+output/sb_amb_oq_vizwiz.png
+output/sb_amb_oq_vqa.png
+output/sb_amb_q_vizwiz.png
+output/sb_amb_q_vqa.png
