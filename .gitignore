@@ -167,3 +167,6 @@ metadata.jsonl
 
 # DS Store
 .DS_Store
+
+# Outputs
+split_stats.txt
