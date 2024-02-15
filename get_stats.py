@@ -3,6 +3,7 @@ import json
 import os
 
 from split import get_split
+from sunburst import generate_sunburst
 
 def load_data(rootpath):
     data = list()
@@ -24,6 +25,9 @@ def main(args):
 
     if args.split:
         get_split(dataset)
+
+    if args.sunburst:
+        generate_sunburst(dataset)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
